@@ -37,16 +37,10 @@ window.addEventListener('scroll', () => {
 })
 
 
-let secondaryTitle = document.getElementById('text');
-let port = document.getElementById('port');
-let contact = document.getElementById('contact');
-let sombra = '';
+
+const secondarytitle = document.querySelector('.secondary-title')
+let shadow = '';
 for (let i = 0; i < 15; i++) {
-  // sombra += (sombra ? ',' : '')+ -i*1+'px '+ i*1+'px 0 #1B4359';
-  // sombra += (sombra ? ',' : '')+ -i*1+'px '+ i*1+'px 0 #006CA6';
-  // sombra += (sombra ? ',' : '')+ -i*1+'px '+ i*1+'px 0 #009CF2';
-  sombra += (sombra ? ',' : '')+ -i*1+'px '+ i*1+'px 0 #d9d9d9';
+  shadow += (shadow ? ',' : '')+ -i*1+'px '+ i*1+'px 0 #d9d9d9';
 }
-secondaryTitle.style.textShadow = sombra;
-port.style.textShadow = sombra;
-contact.style.textShadow = sombra;
+// secondarytitle.style.textShadow = shadow;

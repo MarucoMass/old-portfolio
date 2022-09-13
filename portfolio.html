@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <title>Mario Mass</title>
+   
+</head>
+<body>
+    <!-- inicio header  -->
+  <!-- inicio header  -->
+  <header>
+    <div class="header">
+       <!-- <div class="header-logo"> -->
+        <a class="header-logo" href="/index.html">Mario <span class="header-logo-sign">+</span></a> 
+        <!-- </div> -->
+        <div class="nav-burguer" data-aos="fade-up"><div class="burguer"></div></div>
+        <div class="header-navbar">
+            <ul class="header-ul">
+                <li data-aos="fade-up"><a href="./about.html">Sobre mí</a></li>
+                <li data-aos="fade-up"><a href="./portfolio.html">Portfolio</a></li>
+                <li data-aos="fade-up"><a href="./contact.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+    <div id="fakeBox"></div>
+    <!-- fin header -->
+ 
+<!-- inicio portfolio -->
+<section id="portfolio" class="mainContainer">
+    <h2 class="secondary-title" id="port" data-aos="fade-down">Portfolio</h2>
+    <div class="container">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./img/irupe.png" />
+                <div class="swiper-info">
+                    <h3>Flor de Irupé</h3>
+                    <p>Sitio web de encargo para la Asociación civil "Flor de Irupé"</p>
+                    <a href="https://flordeirupe.org/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/fp.png" />
+                <div class="swiper-info">
+                    <h3>Frente Patria</h3>
+                    <p>Sitio web de encargo para la agrupación "Frente Patria"</p>
+                    <a href="https://www.frentepatriafder.com/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/ghibli.png" />
+                <div class="swiper-info">
+                    <h3>Studio Ghibli App</h3>
+                    <p>ReactApp hecha con la API de Studio Ghibli</p>
+                    <a href="https://mariomass-studioghibliapp.netlify.app/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/pedal store.png" />
+                <div class="swiper-info">
+                    <h3>Pedal Store</h3>
+                    <p>Ecommerce ficticio de pedales de guitarra para curso de React Js</p>
+                    <a href="https://mariomass-pedalstore.netlify.app/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/musicada.png" />
+                <div class="swiper-info">
+                    <h3>Musicasa</h3>
+                    <p>Ecommerce ficticio de cursos de música para curso de Javascript</p>
+                    <a href="https://mariomass.com.ar/musicasa/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/strangebox.png" />
+                <div class="swiper-info">
+                    <h3>Strangebox</h3>
+                    <p>Proyecto personal de juegos y webapps pensado como excusa para practicar código</p>
+                    <a href="https://mariomass.com.ar/strangebox/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/musmanno.png" />
+                <div class="swiper-info">
+                    <h3>Mangueras Musmanno Rock Festival</h3>
+                    <p>Sitio web ficticio del sketch de "Peter Capusotto y sus videos" para curso de Desarrollo Web</p>
+                    <a href="https://mariomass.com.ar/musmanno/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/reloj.png" />
+                <div class="swiper-info">
+                    <h3>Reloj</h3>
+                    <p>Proyecto personal de reloj funcional</p>
+                    <a href="https://mariomass.com.ar/reloj/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/calculadora.png" />
+                <div class="swiper-info">
+                    <h3>Calculadora</h3>
+                    <p>Proyecto personal de calculadora funcional</p>
+                    <a href="https://mariomass.com.ar/calculadora/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./img/expense.png" />
+                <div class="swiper-info">
+                    <h3>Expense Tracker</h3>
+                    <p>Proyecto personal de expense-tracker</p>
+                    <a href="https://mariomass.com.ar/expense-tracker/" target="_blank">Visitar el sitio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+</section>
+<!-- fin portfolio -->
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200
+        });
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 500,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>

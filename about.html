@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/head.svg" type="image/svg">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Mario Mass</title>
   
 </head>
@@ -13,15 +14,15 @@
     <!-- inicio header  -->
    <!-- inicio header  -->
    <header>
-    <div class="header">
+    <div class="header" data-aos="fade-up">
         <!-- <div class="header-logo"> -->
             <a class="header-logo" href="/site">Mario <span class="header-logo-sign">+</span></a> 
             <!-- </div> -->
-        <div class="nav-burguer" data-aos="fade-up"><div class="burguer"></div></div>
+        <div class="nav-burguer"><div class="burguer"></div></div>
         <div class="header-navbar">
             <ul class="header-ul">
-                <li data-aos="fade-up"><a href="./about.html">Sobre mí</a></li>
                 <li data-aos="fade-up"><a href="./portfolio.html">Portfolio</a></li>
+                <li data-aos="fade-up"><a href="./about.html">Sobre mí</a></li>
                 <li data-aos="fade-up"><a href="./contact.html">Contacto</a></li>
             </ul>
         </div>
@@ -31,14 +32,14 @@
     <!-- fin header -->
 <!-- inicio sobre mi -->
 <section id="sobre-mi" class="mainContainer">
-    <div class="container" >
+    <div class="container one" >
         <!-- <div class="hero two"> -->
             <div class="info">
                 <h2 class="secondary-title" id="text" data-aos="fade-down">Sobre mí</h2>
                 <p class="hero-description" data-aos="fade-right"">Mi nombre es Mario Massonnat y soy desarrollador web freelance. También soy músico.<br><br>
-                En el 2019 comencé a estudiar programación por curiosidad y allí descubrí mi pasión por el diseño y el desarrollo web.<br><br>
-                Desde entonces he estado estudiando en diversas plataformas y haciendo diversos proyectos para así ser cada día un mejor profesional.<br><br>
-                Actualmente vivo en la ciudad de Rosario, en Argentina.
+                Actualmente vivo en la ciudad de Rosario, en Argentina. <br><br>En el 2019 comencé a estudiar programación por curiosidad y allí descubrí mi pasión por el diseño y el desarrollo web.<br><br>
+                Desde entonces he estado estudiando en diversas plataformas y haciendo diversos proyectos para así ser cada día un mejor profesional.<br>
+                <a href="./Resume - Mario Massonnat.pdf" download="Mario Mass CV">Descargar Curriculum Vitae</a>
                 </p>
             </div>
             <div class="hero-boxImg" data-aos="fade-up" ">
@@ -116,7 +117,7 @@
 </section>
 <!-- fin sobre mi -->
 
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
